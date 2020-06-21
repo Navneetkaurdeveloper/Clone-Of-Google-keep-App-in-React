@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: lightcyan;}
+  
+  .header{
+    background-color: yellow;
+    width: 100%;
+    align-items: center;
+    padding-left: 50px;
+    color: Red;
+    display: flex;
+    font-size: 25px;
+    box-shadow: 5px 3px 15px -5px rgb(0,0,0,0.5);
+    font-family: 'Piedra', cursive;
+  }
+  footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+  }
+  .main_note{
+    width: 500px;
+    padding:15px 10 px 5px 10px;
+    margin: 30px auto;
+    box-shadow: 10px 10px 10px grey;
+    background-color: honeydew;
+    /* border:solid black; */
+  }
+  .note{
+    width: 240px;
+    border-radius: 7px;
+    padding:15px 10px 5px 10px;
+    margin-left: 16px;
+    box-shadow: 0px 5px 10px 10px grey;
+    background-color: honeydew;
+    float: left;
+  }
+  .note h1{
+    font-size: 1.1 em;
+    /* margin-bottom: 6px; */
+  }
+  .note p{
+    font-size: 1.1em;
+   
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+ 
+
+  form{
+
+    min-height: 50px;
+    color: white;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 5px 3px 15px -5px rgba (0,0,0,0.5);}
+
+    input{
+    width: 100%;
+    line-height:30px;
+    background: transparent;
+     border:none ;
+    outline: none;
+    margin : 10px 0 ;
+    font-weight: bold;
+    font-size: 1.5rem
+    ;
+  }
+  textarea{
+    width:100%;
+    line-height: 30px;
+    border:none;
+    outline:none;
+    font-size: 1rem;
+    margin:10px 0;
+  }
+
+
+  .MuiButton-root{
+width: 50px;
+height: 50px;
+position: absolute;
+    float: right;
+    left:16px;
+  bottom: 25px;
+  font-weight: 500;
+  background: red;
+  border: yellow;
+  }
+  /* .main_note.plus_sign {
+    font-weight: 45px;
+    font-weight: 900;
+    color: yellow;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+    float: left;
+
+  }
+  .plus :hover{
+    background:yellow;
+  
+  } */
+ 
+  
+  
+ .plus_sign{
+  font-weight:500;
+  
+  color: red;
+  cursor: pointer;
+  z-index: 222;
+  background: yellow;
+  float: right;
+} 
+button 
+{
+  position: relative;
+  color: red;
+  float: right;
+  
+  border: none;
+  height: 50px;
+  width:50px;
+  background: yellow;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px rgba(0,0,0,0.5);
+
+
+}
